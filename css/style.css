@@ -658,6 +658,7 @@ h2.resp-accordion {
 	margin-top:3%; 
 }
 .about-text p {
+	text-align: justify;
 	font-size: 15px;
 	color: #7e7e7e;
 	line-height: 1.5em;
@@ -999,6 +1000,7 @@ padding-bottom: 2em;
 			}
 			.servicios-grid img {
 				width: 35%;
+				height: 80%;
 			}
 			.servicios-grid {
 				padding: 20px 0;
@@ -1033,7 +1035,7 @@ padding-bottom: 2em;
 				width: 80%;
 			}
 			.about-text p {
-				height: 65px;
+				height: 100%;
 				overflow: hidden;
 			}
 			.about-sectiongrids {
@@ -1134,6 +1136,10 @@ padding-bottom: 2em;
 	.wmuSliderPagination {
 		right: 46%;
 	}
+	.img-top img {
+	min-height: 140px;
+    max-height: 1600px;
+}
 }
  @media(max-width:736px){
 	 .resp-tab-item {
@@ -1200,7 +1206,6 @@ padding-bottom: 2em;
 			top: -30px;
 		}
 		.about-text p {
-			height: 46px;
 			overflow: hidden;
 		}
 		.about-header h3 {
@@ -1448,6 +1453,10 @@ padding-bottom: 2em;
 			background-position: -299px -2px;
 			right: 0.5em;
 		}
+		.img-top img {
+			min-height: 100px;
+			max-height: 120px;
+		}
 		.servicios-section {
 			padding: 1em 0;
 		}
@@ -1492,7 +1501,6 @@ padding-bottom: 2em;
 			padding: 1em 0;
 		}
 		.about-text p {
-			height: 37px;
 			overflow: hidden;
 			font-size: 0.9em;
 		}
